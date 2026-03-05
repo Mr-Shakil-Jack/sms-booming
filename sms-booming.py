@@ -75,7 +75,7 @@ def sms_booming_tool():
         except ValueError:
             print("\033[1;31mPlease enter a valid number.\033[0m")
 
-    url = "https://efiling.ebmeb.gov.bd/index.php/eiinsim/sendotp"
+    url = "https://weblogin.grameenphone.com/backend/api/v1/otp"
 
     headers = {
         "accept": "*/*",
